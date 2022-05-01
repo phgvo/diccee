@@ -10,10 +10,10 @@ document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2); // 
 
 // If player Wins
 if (randomNumber1 > randomNumber2) {
-document.querySelector("h1").innerHTML = "🚩 Pappa wins";
+document.querySelector("h1").innerHTML = "🚩 Uncle wins";
 }
 else if (randomNumber2 > randomNumber1) {
-document.querySelector("h1").innerHTML = "🚩 Danny wins";
+document.querySelector("h1").innerHTML = "🚩 Celine wins";
 }
 else {
 document.querySelector("h1").innerHTML = "🎌 Duels, draw again"
